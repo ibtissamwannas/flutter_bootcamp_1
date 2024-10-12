@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bootcamp_1/design3.dart';
-import 'package:flutter_bootcamp_1/design4.dart';
+import 'package:flutter_bootcamp_1/design7.dart';
+
+import 'design6.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: const Design4(),
+      home: const Design7(),
     );
   }
 }
